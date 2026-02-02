@@ -7,8 +7,21 @@ public class AbstractFactoryDemoExamCar {
         Car usaLuxury = usaFactory.createLuxuryCar();
         usaLuxury.showSpecification();
 
+        Car usaSmall = usaFactory.createSmallCar();
+        usaSmall.showSpecification();
+
+        Car usaSedan = usaFactory.createSedanCar();
+        usaSedan.showSpecification();
+
         Car asiaSmall = asiaFactory.createSmallCar();
         asiaSmall.showSpecification();
+
+        Car asiaLuxury = asiaFactory.createLuxuryCar();
+        asiaLuxury.showSpecification();
+
+        Car asiaSedan = asiaFactory.createSedanCar();
+        asiaSedan.showSpecification();
+
     }
 }
 
